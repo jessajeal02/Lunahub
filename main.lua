@@ -1,4 +1,4 @@
-local KeyValid,KeyPremium, KeysystemLibrary, KeyGuardLibrary = false,false,loadstring(game:HttpGet("https://raw.githubusercontent.com/jessajeal02/Lunahub/refs/heads/main/data/gui.lua"))(),loadstring(game:HttpGet("https://cdn.keyguardian.org/library/v1.0.0.lua"))()
+local KeyValid,KeyPremium, KeysystemLibrary, KeyGuardLibrary = false,false,loadstring(game:HttpGet("https://raw.githubusercontent.com/jessajeal02/Lunahub/refs/heads/main/data/gui.lua"))(),loadstring(game:HttpGet("https://raw.githubusercontent.com/jessajeal02/Lunahub/refs/heads/main/data/keyguardian.lua"))()
 
 KeyGuardLibrary.Set({
 	publicToken = "5c114f2ec1814466928cd4b947039530",
