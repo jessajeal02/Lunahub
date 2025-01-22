@@ -28,6 +28,7 @@ local KSresponse = KeysystemLibrary:Init({
 if not KSresponse or not KeyValid then return end 
 
 -- YOUR SCRIPT HERE
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jessajeal02/Lunahub/refs/heads/main/scripts/fisch.lua"))()
 
 -- Example of checking is user have a premium:
 if KeyPremium then
